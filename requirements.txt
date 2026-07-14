@@ -1,0 +1,41 @@
+# ==========================================
+# CORE DEEP LEARNING (Install separately!)
+# ==========================================
+# IMPORTANT: Do NOT install PyTorch via this file!
+# Install GPU version FIRST with:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# ==========================================
+
+# ---------- IMAGE & VISION ----------
+opencv-python>=4.7.0          # Grad-CAM, image overlays, Albumentations backend
+Pillow>=9.5.0                 # Loading images
+albumentations>=1.3.0         # Data augmentations
+timm>=0.9.0                   # EfficientNet backbones
+
+# ---------- DATA & NUMERICS ----------
+pandas>=2.0.0                 # Reading CSVs
+numpy>=1.24.0                 # Array operations
+scipy>=1.10.0                 # Advanced math (sometimes needed by sklearn/metrics)
+
+# ---------- MACHINE LEARNING ----------
+scikit-learn>=1.2.0           # Metrics (accuracy, AUC, confusion matrix)
+
+# ---------- UTILITIES ----------
+tqdm>=4.65.0                  # Progress bars
+pyyaml>=6.0                   # For config files (if you use YAML later)
+omegaconf>=2.3.0              # Alternative to pyyaml (nested configs)
+python-dotenv>=1.0.0          # For environment variables (paths, etc.)
+
+# ---------- VISUALIZATION & PLOTTING ----------
+matplotlib>=3.7.0             # Plotting loss curves, Grad-CAM outputs
+seaborn>=0.12.0               # Beautiful confusion matrices / heatmaps
+
+# ---------- LOGGING & MONITORING ----------
+tensorboard>=2.13.0           # PyTorch's built-in logging (optional but great)
+# wandb>=0.15.0                # (Optional) Weights & Biases for cloud logging
+
+# ---------- torchvision gpu --------------
+#----------- run in terminal --------------
+#pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+

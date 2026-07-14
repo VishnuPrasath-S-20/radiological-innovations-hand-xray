@@ -1,0 +1,8 @@
+cd ~/code/radiological-innovations-hand-xray
+source venv/bin/activate
+python scripts/train_age.py
+
+
+cd ~/code/radiological-innovations-hand-xray
+source venv/bin/activate
+python scripts/train_cancer.py

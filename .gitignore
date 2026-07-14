@@ -1,5 +1,24 @@
+# Virtual Environment
+venv/
 .venv/
+
+# Python cache
 __pycache__/
-data/
-*.pt
+*.pyc
+*.pyo
+
+# Model checkpoints
 *.pth
+*.tar
+*.h5
+*.pb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Dataset 
+data/
+age/
+cancer/
